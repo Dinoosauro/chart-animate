@@ -1,0 +1,16 @@
+{
+  "name": "chart-animate",
+  "short_name": "chart-animate",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#151515",
+  "theme_color": "#279bc5",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
