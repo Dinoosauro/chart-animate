@@ -22,7 +22,7 @@ export default function SectionColor({ line }: Props) {
                 backgroundColor: item,
             }
         })} hint="Custom colors"></DataContainer>
-        <h3>Line border(s):</h3>
+        <h3>Border color(s):</h3>
         <DataContainer type="color" defaultValues={(() => { // Same as before
             if (!window.chartGet || !window.chartGet.data?.datasets || !window.chartGet.data?.datasets[line] || !window.chartGet.data.datasets[line].borderColor) return [];
             const str = window.chartGet.data.datasets[line].borderColor;
